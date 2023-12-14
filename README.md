@@ -1,32 +1,17 @@
-# Toughts - Plataforma de Compartilhamento de Pensamentos
+# Apple Clone
 
-Bem-vindo ao Toughts, uma plataforma interativa onde os usuários podem criar perfis, compartilhar pensamentos, interagir através de comentários e aproveitar uma experiência única de comunicação. Este projeto Full-Stack é uma jornada de aprendizado que explora diversas tecnologias para criar uma aplicação web dinâmica e envolvente.
+Bem-vindo ao Apple.com Clone, uma recriação da famosa interface da Apple, destacando design elegante, usabilidade intuitiva e tecnologias modernas para proporcionar uma experiência semelhante à original.
 
-## Recursos Principais
+### Visão Geral
 
-- **Criação de Perfil:** Os usuários podem criar seu perfil personalizado para compartilhar pensamentos e se conectar com outros membros.
+Este projeto é um clone da página inicial da Apple.com, desenvolvido como um exercício prático para explorar e aplicar habilidades de design e desenvolvimento web. Utilizamos tecnologias modernas para criar uma versão responsiva e interativa do site.
 
-- **Comentários em Tempo Real:** Utilizando o Socket.io, os comentários são exibidos em tempo real, proporcionando uma experiência de comunicação instantânea.
+#### Recursos Principais
+Design Responsivo
+A interface é projetada para se adaptar a diferentes tamanhos de tela, garantindo uma experiência consistente em dispositivos desktop, tablets e smartphones.
 
-- **Gerenciamento de Comentários:** Os usuários têm a capacidade de editar e excluir seus próprios comentários, garantindo controle sobre o conteúdo compartilhado.
+#### Carousel Interativo
+Implementamos um carousel interativo que exibe os produtos em destaque, proporcionando uma experiência visual envolvente.
 
-- **Interface Responsiva:** Desenvolvida com TailwindCSS e ShadcnUI, a interface se adapta a dispositivos móveis e oferece suporte ao modo claro/escuro.
-
-- **Autenticação Segura:** Utilização da autenticação com Clerk para garantir a segurança dos usuários.
-
-- **Persistência de Dados:** Sequelize atua como ORM, facilitando a interação com o banco de dados MySQL.
-
-## Instalação e Execução
-
-Para começar, siga os passos abaixo:
-
- **Instale as dependências:**
-   ```bash
-   npm install
-
-   ```
-
- **Iniciando:**
-   ```bash
-   npm start
-   ```
+#### Navegação Intuitiva
+A navegação do site é intuitiva, seguindo o estilo de menu da Apple, proporcionando uma experiência familiar aos usuários.
