@@ -1,17 +1,32 @@
-# Apple Clone
+# Toughts - Plataforma de Compartilhamento de Pensamentos
 
-Bem-vindo ao Apple.com Clone, uma recriação da famosa interface da Apple, destacando design elegante, usabilidade intuitiva e tecnologias modernas para proporcionar uma experiência semelhante à original.
+Bem-vindo ao Toughts, uma plataforma interativa onde os usuários podem criar perfis, compartilhar pensamentos, interagir através de comentários e aproveitar uma experiência única de comunicação. Este projeto Full-Stack é uma jornada de aprendizado que explora diversas tecnologias para criar uma aplicação web dinâmica e envolvente.
 
-### Visão Geral
+## Recursos Principais
 
-Este projeto é um clone da página inicial da Apple.com, desenvolvido como um exercício prático para explorar e aplicar habilidades de design e desenvolvimento web. Utilizamos tecnologias modernas para criar uma versão responsiva e interativa do site.
+- **Criação de Perfil:** Os usuários podem criar seu perfil personalizado para compartilhar pensamentos e se conectar com outros membros.
 
-#### Recursos Principais
-Design Responsivo
-A interface é projetada para se adaptar a diferentes tamanhos de tela, garantindo uma experiência consistente em dispositivos desktop, tablets e smartphones.
+- **Comentários em Tempo Real:** Utilizando o Socket.io, os comentários são exibidos em tempo real, proporcionando uma experiência de comunicação instantânea.
 
-#### Carousel Interativo
-Implementamos um carousel interativo que exibe os produtos em destaque, proporcionando uma experiência visual envolvente.
+- **Gerenciamento de Comentários:** Os usuários têm a capacidade de editar e excluir seus próprios comentários, garantindo controle sobre o conteúdo compartilhado.
 
-#### Navegação Intuitiva
-A navegação do site é intuitiva, seguindo o estilo de menu da Apple, proporcionando uma experiência familiar aos usuários.
+- **Interface Responsiva:** Desenvolvida com TailwindCSS e ShadcnUI, a interface se adapta a dispositivos móveis e oferece suporte ao modo claro/escuro.
+
+- **Autenticação Segura:** Utilização da autenticação com Clerk para garantir a segurança dos usuários.
+
+- **Persistência de Dados:** Sequelize atua como ORM, facilitando a interação com o banco de dados MySQL.
+
+## Instalação e Execução
+
+Para começar, siga os passos abaixo:
+
+ **Instale as dependências:**
+   ```bash
+   npm install
+
+   ```
+
+ **Iniciando:**
+   ```bash
+   npm start
+   ```
